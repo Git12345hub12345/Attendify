@@ -1,0 +1,11 @@
+{
+    "student_id": "10",
+    "name": "Asmita Pun",
+    "email": "Asmita@gmail.com",
+    "department": "BCE",
+    "year": "8",
+    "phone": "9869840869",
+    "image_path": "./attendify_db/student_images/10.jpg",
+    "registration_date": "2026-01-28T09:57:38.342902",
+    "anti_spoofing_verified": true
+}

@@ -1,0 +1,15 @@
+{
+    "course_id": "CS101",
+    "course_name": "Introduction to Programming",
+    "instructor": "Dr. Smith",
+    "department": "Computer Science",
+    "days": [
+        "Monday",
+        "Wednesday",
+        "Friday"
+    ],
+    "start_time": "10:00",
+    "end_time": "11:00",
+    "schedule": "Mon, Wed, Fri 10:00-11:00",
+    "room": "Room 101"
+}

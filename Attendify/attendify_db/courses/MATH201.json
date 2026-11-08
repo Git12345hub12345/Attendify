@@ -1,0 +1,14 @@
+{
+    "course_id": "MATH201",
+    "course_name": "Calculus II",
+    "instructor": "Prof. Johnson",
+    "department": "Mathematic",
+    "days": [
+        "Tuesday",
+        "Thursday"
+    ],
+    "start_time": "14:00",
+    "end_time": "15:30",
+    "schedule": "Tue, Thu 14:00-15:30",
+    "room": "Room 205"
+}

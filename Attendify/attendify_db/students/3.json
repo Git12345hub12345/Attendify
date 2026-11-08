@@ -1,0 +1,11 @@
+{
+    "student_id": "3",
+    "name": "ramun",
+    "email": "sdfs@gmail.com",
+    "department": "BCE",
+    "year": "8",
+    "phone": "452352",
+    "image_path": "./attendify_db/student_images/3.jpg",
+    "registration_date": "2026-01-28T11:47:05.771831",
+    "anti_spoofing_verified": true
+}

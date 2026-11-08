@@ -1,0 +1,11 @@
+{
+    "student_id": "69",
+    "name": "ganadib",
+    "email": "gan@gmail.com",
+    "department": "dfghjk",
+    "year": "1",
+    "phone": "098765432",
+    "image_path": "./attendify_db/student_images/69.jpg",
+    "registration_date": "2026-01-28T10:20:55.874637",
+    "anti_spoofing_verified": true
+}

@@ -1,0 +1,7 @@
+student_id,student_name,course_id,course_name,date,time,timestamp,status,anti_spoofing
+21,khushi,ENG101,English Composition,2026-01-28,00:00:10,2026-01-28T00:00:10.781738,Present,True
+21,khushi,ENG101,English Composition,2026-01-28,09:39:37,2026-01-28T09:39:37.496988,Present,True
+21,khushi,ENG101,English Composition,2026-01-28,09:45:36,2026-01-28T09:45:36.235588,Present,True
+21,khushi,ENG101,English Composition,2026-01-28,09:46:36,2026-01-28T09:46:36.007190,Present,True
+2,cedce,ENG101,English Composition,2026-01-28,09:49:31,2026-01-28T09:49:31.664931,Present,True
+21,khushi,ENG101,English Composition,2026-01-28,09:49:45,2026-01-28T09:49:45.276598,Present,True

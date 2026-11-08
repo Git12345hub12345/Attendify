@@ -1,0 +1,2 @@
+student_id,student_name,course_id,course_name,date,time,timestamp,status,anti_spoofing
+223,asssii,ENG101,English Composition,2026-02-24,18:38:43,2026-02-24T18:38:43.583978,Present,True

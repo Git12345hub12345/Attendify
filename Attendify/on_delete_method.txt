@@ -1,0 +1,64 @@
+    
+    def on_delete(self):
+        """Handle delete button click - delete student from database"""
+        try:
+            student_id = self.student_data.get('student_id', '')
+            student_name = self.student_data.get('name', '')
+            
+            # Confirm deletion with user
+            confirm = messagebox.askyesno(
+                "Confirm Deletion",
+                f"Are you sure you want to delete this student?\n\n"
+                f"Student ID: {student_id}\n"
+                f"Name: {student_name}\n\n"
+                f"This action cannot be undone. All attendance records for this student will also be deleted.",
+                icon='warning'
+            )
+            
+            if not confirm:
+                return
+            
+            # Delete student from database
+            success = self.database.delete_student(student_id)
+            
+            if success:
+                # Delete student image file if exists
+                image_path = self.student_data.get('image_path', '')
+                if image_path and os.path.exists(image_path):
+                    try:
+                        os.remove(image_path)
+                    except Exception as e:
+                        print(f"Error deleting image file: {e}")
+                
+                # Also delete any temporary new image if exists
+                if self.new_image_path and os.path.exists(self.new_image_path):
+                    try:
+                        os.remove(self.new_image_path)
+                    except Exception as e:
+                        print(f"Error deleting temporary image: {e}")
+                
+                # Show success message
+                messagebox.showinfo(
+                    "Success",
+                    f"Student deleted successfully!\n\nStudent ID: {student_id}\nName: {student_name}"
+                )
+                
+                # Refresh View Students window if open
+                self.refresh_view_students_window()
+                
+                # Set result and close dialog
+                self.result = {
+                    'student_id': student_id,
+                    'deleted': True
+                }
+                self.dialog.destroy()
+            else:
+                messagebox.showerror(
+                    "Error",
+                    "Failed to delete student. The student may not exist in the database."
+                )
+                
+        except Exception as e:
+            error_msg = f"Failed to delete student: {str(e)}"
+            messagebox.showerror("Database Error", error_msg)
+            print(f"Delete error: {e}")

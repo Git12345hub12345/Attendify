@@ -1,0 +1,11 @@
+{
+    "student_id": "17",
+    "name": "Khushi Gurung",
+    "email": "Khushi@gmail.com",
+    "department": "BCE",
+    "year": "8",
+    "phone": "9805855908",
+    "image_path": "./attendify_db/student_images/17.jpg",
+    "registration_date": "2026-01-28T09:59:23.332178",
+    "anti_spoofing_verified": true
+}

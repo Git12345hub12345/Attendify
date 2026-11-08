@@ -1,0 +1,11 @@
+{
+    "student_id": "27",
+    "name": "Rajan Subedi",
+    "email": "rajan@gmail.com",
+    "department": "BCE",
+    "year": "8",
+    "phone": "3475835",
+    "image_path": "./attendify_db/student_images/27.jpg",
+    "registration_date": "2026-01-28T10:12:00.532443",
+    "anti_spoofing_verified": true
+}

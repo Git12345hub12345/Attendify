@@ -1,0 +1,2 @@
+student_id,student_name,course_id,course_name,date,time,timestamp,status,anti_spoofing
+223,asssii,123,DSAP,2026-02-24,18:40:46,2026-02-24T18:40:46.392619,Present,True

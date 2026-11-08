@@ -1,0 +1,18 @@
+{
+    "course_id": "123",
+    "course_name": "DSAP",
+    "instructor": "Smita Adhikari",
+    "department": "Computer",
+    "days": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Sunday"
+    ],
+    "start_time": "07:00",
+    "end_time": "08:00",
+    "schedule": "Mon, Tue, Wed, Thu, Fri, Sun 07:00-08:00",
+    "room": "123"
+}

@@ -1,0 +1,2 @@
+student_id,student_name,course_id,course_name,date,time,timestamp,status,anti_spoofing
+223,asssii,CS101,Introduction to Programming,2026-02-24,18:48:29,2026-02-24T18:48:29.968573,Present,True

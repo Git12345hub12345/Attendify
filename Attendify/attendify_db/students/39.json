@@ -1,0 +1,11 @@
+{
+    "student_id": "39",
+    "name": "Sandesh lamsal",
+    "email": "be2021ce153@gces.edu.np",
+    "department": "BCE",
+    "year": "8",
+    "phone": "6253765134",
+    "image_path": "./attendify_db/student_images/39.jpg",
+    "registration_date": "2026-01-28T10:10:46.458419",
+    "anti_spoofing_verified": true
+}

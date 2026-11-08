@@ -1,0 +1,2 @@
+student_id,student_name,course_id,course_name,date,time,timestamp,status,anti_spoofing
+17,khushi,ENG101,English Composition,2026-01-27,18:47:42,2026-01-27T18:47:42.113546,Present,False

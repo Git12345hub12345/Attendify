@@ -1,0 +1,5 @@
+student_id,student_name,course_id,course_name,date,time,timestamp,status,anti_spoofing
+17,Khushi Gurung,CS101,Introduction to Programming,2026-01-28,09:59:52,2026-01-28T09:59:52.422059,Present,True
+10,Asmita Pun,CS101,Introduction to Programming,2026-01-28,10:00:21,2026-01-28T10:00:21.821150,Present,True
+39,Sandesh lamsal,CS101,Introduction to Programming,2026-01-28,10:11:00,2026-01-28T10:11:00.742292,Present,True
+27,Rajan Subedi,CS101,Introduction to Programming,2026-01-28,10:12:14,2026-01-28T10:12:14.361394,Present,True

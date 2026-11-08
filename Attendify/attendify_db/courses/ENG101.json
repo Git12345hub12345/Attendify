@@ -1,0 +1,15 @@
+{
+    "course_id": "ENG101",
+    "course_name": "English Composition",
+    "instructor": "Dr. Brown",
+    "department": "English",
+    "days": [
+        "Monday",
+        "Wednesday",
+        "Friday"
+    ],
+    "start_time": "09:00",
+    "end_time": "10:00",
+    "schedule": "Mon, Wed, Fri 09:00-10:00",
+    "room": "Room 301"
+}

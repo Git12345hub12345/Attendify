@@ -1,0 +1,2 @@
+student_id,student_name,course_id,course_name,date,time,timestamp,status,anti_spoofing
+17,khushi,MATH201,Calculus II,2026-01-27,18:52:30,2026-01-27T18:52:30.588640,Present,False

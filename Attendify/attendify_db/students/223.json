@@ -1,0 +1,11 @@
+{
+    "student_id": "223",
+    "name": "asssii",
+    "email": "lululemon@gmail.com",
+    "department": "BECE",
+    "year": "8",
+    "phone": "2314521452",
+    "image_path": "./attendify_db/student_images/223.jpg",
+    "registration_date": "2026-02-24T18:38:35.066939",
+    "anti_spoofing_verified": true
+}
